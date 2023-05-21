@@ -7,8 +7,7 @@
 }
 
 body {
-    @apply font-outfit;
-    background: linear-gradient(#ff8fab, #ffc2d1)
+    @apply font-outfit bg-gradient-to-b from-[#ff8fab] to-[#ffc2d1];
 }
 
 #prewed img {
@@ -17,7 +16,7 @@ body {
 }
 
 #prewed img:hover {
-    /* box-shadow: 4px 4px 8px 0 rgba(3, 4, 94, .9); */
+    box-shadow: 4px 4px 8px 0 rgba(3, 4, 94, .9);
 }
 
 /* Shake */
