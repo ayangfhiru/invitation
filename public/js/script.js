@@ -1,7 +1,7 @@
 // Countdown
 var countdownDate = new Date("Dec 29 2023 09:00:00").getTime();
 var interval = setInterval(() => {
-    var now =  new Date().getTime();
+    var now = new Date().getTime();
     var distance = countdownDate - now;
 
     // Time calculation day, hours, minutes, seconds
@@ -12,7 +12,7 @@ var interval = setInterval(() => {
     // var result = days + " " + hours + " " + minutes + " " + seconds;
 
     // Output
-    if(distance < 0) {
+    if (distance < 0) {
         clearInterval(interval);
         document.querySelector("#days").innerHTML = 0;
         document.querySelector("#hours").innerHTML = 0;
@@ -32,8 +32,8 @@ const queryString = window.location.search;
 const urlParams = new URLSearchParams(queryString);
 const to = urlParams.get('to');
 
-if(queryString != ""){
-    if(to != ""){
+if (queryString != "") {
+    if (to != "") {
         document.querySelector("#invitation").innerHTML = to;
     } else {
         document.querySelector("#invitation").innerHTML = "Teman-teman Semua";
@@ -41,3 +41,14 @@ if(queryString != ""){
 } else {
     document.querySelector("#invitation").innerHTML = "Teman-teman Semua";
 }
+
+// ScrollShake
+window.onscroll = function () {
+    const img = document.querySelectorAll("#prewed > img");
+    for (let i = 0; i < img.length; i++) {
+        img[i].classList.add("shake");
+        setTimeout(() => {
+            img[i].classList.remove("shake");
+        }, 5000);
+    }
+};

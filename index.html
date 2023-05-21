@@ -5,165 +5,205 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="./public/css/style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&family=Permanent+Marker&display=swap"
+        rel="stylesheet">
     <link rel="icon" type="image/icon" href="./public/images/heart.png">
     <title>Wedding Invitation</title>
 </head>
 
 <body>
-    <section class="w-full h-screen flex items-center bg-slate-400 p-10">
+    <section class="w-full h-screen flex items-center p-10">
         <div
-            class="w-full block md:flex flex-wrap border-8 border-double rounded-none md:rounded-3xl rounded-tl-full md:rounded-tl-3xl rounded-tr-full md:rounded-tr-3xl border-red-700 p-4 overflow-hidden opacity-white">
+            class="w-full block md:flex flex-wrap border-8 border-double rounded-none md:rounded-3xl rounded-tl-full md:rounded-tl-3xl rounded-tr-full md:rounded-tr-3xl border-secondary p-4 overflow-hidden opacity-white">
             <div class="w-full md:w-1/2 flex justify-center items-center">
                 <img src="./public/images/wedding hero.jpeg" alt="Wedding"
-                    class="object-cover max-w-full h-[340px] rounded-tl-full md:rounded-tl-lg rounded-tr-full md:rounded-tr-lg rounded-lg">
+                    class="object-cover max-w-full h-[340px] rounded-tl-full md:rounded-tl-lg rounded-tr-full md:rounded-tr-lg rounded-lg border border-third">
             </div>
             <div class="w-full md:w-1/2 flex flex-col justify-center">
-                <h1 class="text-center mt-3 font-semibold text-xl text-txt md:text-4xl lg:text-5xl md:font-light">Latifah & Ayang F</h1>
-                <p class="text-center text-sm text-txt md:text-base mt-3 md:mt-5">Jumat, 29 Desember 2023</p>
-                <p class="text-center text-sm text-txt md:text-base mt-6 md:mt-8">Kepada Yth</p>
-                <p id="invitation" class="text-center text-base text-txt md:text-lg mt-2 md:mt-4"></p>
+                <h1 class="text-center mt-3 font-name font-semibold text-xl text-secondary md:text-4xl lg:text-5xl">
+                    Latifah & Ayang F</h1>
+                <p class="text-center text-sm text-secondary md:text-base mt-3 md:mt-5">Jumat, 29 Desember 2023</p>
+                <p class="text-center text-sm text-secondary md:text-base mt-6 md:mt-8">Kepada Yth</p>
+                <p id="invitation" class="text-center text-base text-secondary md:text-lg mt-2 md:mt-4"></p>
                 <a href="#undangan"
-                    class="mt-2 py-2 px-10 md:px-20 text-txt bg-primary block mx-auto rounded-lg text-base font-semibold hover:bg-secondary transition-colors duration-300 ease-in-out">Buka
+                    class="mt-2 py-2 px-10 md:px-20 text-fourth bg-primary block mx-auto rounded-lg text-base font-semibold border-2 border-third hover:bg-third hover:text-primary hover:border-primary transition-colors duration-300 ease-in-out">Buka
                     Udangan</a>
             </div>
         </div>
     </section>
-    <section class="w-full bg-gray-400 py-10 px-10 md:px-20 lg:px-36 flex flex-col items-center">
+    <section class="w-full py-10 px-10 md:px-20 lg:px-36 flex flex-col items-center">
         <div class="relative w-60 md:w-[500px]">
             <img src="./public/images/flower.png" alt="Flower" class="w-28 absolute -right-10 -top-10">
-            <img id="undangan" src="./public/images/wedding hero.jpeg" alt="Wedding" class="mt-10 border-8 object-cover border-red-700 border-double rounded-3xl w-full h-96">
-            <img src="./public/images/anggrek.png" alt="Anggrek" class="h-40 md:h-52 absolute -bottom-2 -left-[60px] md:-left-[90px] -scale-x-100">
-            <img src="./public/images/anggrek.png" alt="Anggrek" class="h-40 md:h-52 absolute -bottom-2 -right-[60px] md:-right-[90px]">
+            <img id="undangan" src="./public/images/wedding hero.jpeg" alt="Wedding"
+                class="mt-10 border-8 object-cover border-secondary border-double rounded-3xl w-full h-96">
+            <img src="./public/images/anggrek.png" alt="Anggrek"
+                class="h-40 md:h-52 absolute -bottom-2 -left-[60px] md:-left-[90px] -scale-x-100">
+            <img src="./public/images/anggrek.png" alt="Anggrek"
+                class="h-40 md:h-52 absolute -bottom-2 -right-[60px] md:-right-[90px]">
         </div>
-        <p class="mt-14 text-center text-sm tracking-wide text-txt">“Dan di antara tanda-tanda kekuasaan-Nya ialah Dia menciptakan untukmu pasangan-pasangan dari jenismu sendiri, supaya
-        kamu cenderung dan merasa tenteram kepadanya, dan dijadikan-Nya diantaramu rasa kasih dan sayang. Sesungguhnya pada yang
-        demikian itu benar-benar terdapat tanda-tanda bagi kaum yang berfikir.”</p>
+        <p class="mt-14 text-center text-sm tracking-wide text-secondary">“Dan di antara tanda-tanda kekuasaan-Nya ialah
+            Dia menciptakan untukmu pasangan-pasangan dari jenismu sendiri, supaya
+            kamu cenderung dan merasa tenteram kepadanya, dan dijadikan-Nya diantaramu rasa kasih dan sayang.
+            Sesungguhnya pada yang
+            demikian itu benar-benar terdapat tanda-tanda bagi kaum yang berfikir.”</p>
         <div class="my-5 flex justify-center">
             <span class="w-8 h-1 block bg-txt"></span>
         </div>
-        <p class="text-center text-txt font-semibold text-sm">(QS Ar-Rum : 21)</p>
+        <p class="text-center text-secondary font-semibold text-sm">(QS Ar-Rum : 21)</p>
         <div class="flex items-center space-x-4 justify-center mt-5">
-            <span class="w-32 h-1 block bg-slate-500"></span>
-            <p>❤</p>
-            <span class="w-32 h-1 block bg-slate-500"></span>
+            <span class="w-32 lg:w-72 h-1 block bg-secondary"></span>
+            <p class="text-secondary text-3xl">❤</p>
+            <span class="w-32 lg:w-72 h-1 block bg-secondary"></span>
         </div>
     </section>
-    <section class="py-10 px-5 bg-zinc-400">
-        <p class="text-sm md:text-base lg:text-lg text-center text-txt">Dengan segala kerendahan hati dan dengan ucapan syukur atas karunia Tuhan, kami hendak menyampaikan kabar bahagia
-        pernikahan kami :</p>
+    <section class="w-full py-10 px-5">
+        <p class="text-sm md:text-base lg:text-lg text-center text-secondary">Dengan segala kerendahan hati dan dengan
+            ucapan syukur atas karunia Tuhan, kami hendak menyampaikan kabar bahagia
+            pernikahan kami :</p>
         <div class="flex flex-wrap items-center justify-center space-x-0 md:space-x-16 lg:space-x-48">
             <!-- Pengantin Wanita -->
             <div class="flex flex-col items-center mt-5">
-                <span class="my-5 w-56 border-8 border-red-700 border-double rounded-full overflow-hidden">
+                <span class="my-5 w-56 border-8 border-secondary border-double rounded-full overflow-hidden relative">
                     <img src="./public/images/pengantin wanita.jpg" alt="Pengantin Wanita" class="object-cover">
                 </span>
-                <h1 class="text-3xl text-txt">Latifah</h1>
-                <p class="mt-3 text-txt text-xl font-bold">Latifah Nur Febriana</p>
-                <p class="mt-5 font-bold text-txt">Putri Dari : </p>
-                <p class="mt-3 text-lg text-txt"><span>Ibu</span> <span>&</span> <span>Ayah</span></p>
-                <a href="https://www.instagram.com/latifahanaaa_/" target="_blank" class="mt-5 p-2 rounded-full  bg-primary transition duration-500 ease-in-out delay-75 hover:bg-secondary">
+                <p class="mt-3 text-secondary text-xl font-bold">Latifah Nur Febriana</p>
+                <p class="mt-5 font-bold text-secondary">Putri Dari : </p>
+                <p class="mt-3 text-lg text-secondary"><span>Ibu</span> <span>&</span> <span>Ayah</span></p>
+                <a href="https://www.instagram.com/latifahanaaa_/" target="_blank"
+                    class="mt-5 p-2 rounded-full border bg-primary border-third hover:bg-third hover:border-primary transition duration-300 ease-in-out">
                     <svg role="img" width="26" height="26" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                         <title>Instagram</title>
-                        <path fill="#4c0519"
+                        <path fill="#caf0f8"
                             d="M12 0C8.74 0 8.333.015 7.053.072 5.775.132 4.905.333 4.14.63c-.789.306-1.459.717-2.126 1.384S.935 3.35.63 4.14C.333 4.905.131 5.775.072 7.053.012 8.333 0 8.74 0 12s.015 3.667.072 4.947c.06 1.277.261 2.148.558 2.913.306.788.717 1.459 1.384 2.126.667.666 1.336 1.079 2.126 1.384.766.296 1.636.499 2.913.558C8.333 23.988 8.74 24 12 24s3.667-.015 4.947-.072c1.277-.06 2.148-.262 2.913-.558.788-.306 1.459-.718 2.126-1.384.666-.667 1.079-1.335 1.384-2.126.296-.765.499-1.636.558-2.913.06-1.28.072-1.687.072-4.947s-.015-3.667-.072-4.947c-.06-1.277-.262-2.149-.558-2.913-.306-.789-.718-1.459-1.384-2.126C21.319 1.347 20.651.935 19.86.63c-.765-.297-1.636-.499-2.913-.558C15.667.012 15.26 0 12 0zm0 2.16c3.203 0 3.585.016 4.85.071 1.17.055 1.805.249 2.227.415.562.217.96.477 1.382.896.419.42.679.819.896 1.381.164.422.36 1.057.413 2.227.057 1.266.07 1.646.07 4.85s-.015 3.585-.074 4.85c-.061 1.17-.256 1.805-.421 2.227-.224.562-.479.96-.899 1.382-.419.419-.824.679-1.38.896-.42.164-1.065.36-2.235.413-1.274.057-1.649.07-4.859.07-3.211 0-3.586-.015-4.859-.074-1.171-.061-1.816-.256-2.236-.421-.569-.224-.96-.479-1.379-.899-.421-.419-.69-.824-.9-1.38-.165-.42-.359-1.065-.42-2.235-.045-1.26-.061-1.649-.061-4.844 0-3.196.016-3.586.061-4.861.061-1.17.255-1.814.42-2.234.21-.57.479-.96.9-1.381.419-.419.81-.689 1.379-.898.42-.166 1.051-.361 2.221-.421 1.275-.045 1.65-.06 4.859-.06l.045.03zm0 3.678c-3.405 0-6.162 2.76-6.162 6.162 0 3.405 2.76 6.162 6.162 6.162 3.405 0 6.162-2.76 6.162-6.162 0-3.405-2.76-6.162-6.162-6.162zM12 16c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4zm7.846-10.405c0 .795-.646 1.44-1.44 1.44-.795 0-1.44-.646-1.44-1.44 0-.794.646-1.439 1.44-1.439.793-.001 1.44.645 1.44 1.439z" />
                     </svg>
                 </a>
             </div>
             <!-- Pengantin Pria -->
             <div class="flex flex-col items-center mt-5">
-                <span class="my-5 w-56 border-8 border-red-700 border-double rounded-full overflow-hidden">
+                <span
+                    class="my-5 w-56 border-8 border-secondary border-double rounded-full overflow-hidden drop-shadow-xl">
                     <img src="./public/images/pengantin pria.jpg" alt="Pengantin Pria" class="">
                 </span>
-                <h1 class="text-3xl text-txt">Ayang F</h1>
-                <p class="mt-3 text-txt text-xl font-bold">Ayang Fhiru Syang Ghege</p>
-                <p class="mt-5 font-bold text-txt">Putra Dari : </p>
-                <p class="mt-3 text-lg text-txt"><span>Ibu</span> <span>&</span> <span>Ayah</span></p>
-                <a href="https://www.instagram.com/ayangfhiru/" target="_blank" class="mt-5 p-2 rounded-full  bg-primary transition duration-500 ease-in-out delay-75 hover:bg-secondary">
+                <p class="mt-3 text-secondary text-xl font-bold">Ayang Fhiru Syang Ghege</p>
+                <p class="mt-5 font-bold text-secondary">Putra Dari : </p>
+                <p class="mt-3 text-lg text-secondary"><span>Ibu</span> <span>&</span> <span>Ayah</span></p>
+                <a href="https://www.instagram.com/ayangfhiru/" target="_blank"
+                    class="mt-5 p-2 rounded-full border bg-primary border-third hover:bg-third hover:border-primary transition duration-300 ease-in-out">
                     <svg role="img" width="26" height="26" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                         <title>Instagram</title>
-                        <path fill="#4c0519"
+                        <path fill="#caf0f8"
                             d="M12 0C8.74 0 8.333.015 7.053.072 5.775.132 4.905.333 4.14.63c-.789.306-1.459.717-2.126 1.384S.935 3.35.63 4.14C.333 4.905.131 5.775.072 7.053.012 8.333 0 8.74 0 12s.015 3.667.072 4.947c.06 1.277.261 2.148.558 2.913.306.788.717 1.459 1.384 2.126.667.666 1.336 1.079 2.126 1.384.766.296 1.636.499 2.913.558C8.333 23.988 8.74 24 12 24s3.667-.015 4.947-.072c1.277-.06 2.148-.262 2.913-.558.788-.306 1.459-.718 2.126-1.384.666-.667 1.079-1.335 1.384-2.126.296-.765.499-1.636.558-2.913.06-1.28.072-1.687.072-4.947s-.015-3.667-.072-4.947c-.06-1.277-.262-2.149-.558-2.913-.306-.789-.718-1.459-1.384-2.126C21.319 1.347 20.651.935 19.86.63c-.765-.297-1.636-.499-2.913-.558C15.667.012 15.26 0 12 0zm0 2.16c3.203 0 3.585.016 4.85.071 1.17.055 1.805.249 2.227.415.562.217.96.477 1.382.896.419.42.679.819.896 1.381.164.422.36 1.057.413 2.227.057 1.266.07 1.646.07 4.85s-.015 3.585-.074 4.85c-.061 1.17-.256 1.805-.421 2.227-.224.562-.479.96-.899 1.382-.419.419-.824.679-1.38.896-.42.164-1.065.36-2.235.413-1.274.057-1.649.07-4.859.07-3.211 0-3.586-.015-4.859-.074-1.171-.061-1.816-.256-2.236-.421-.569-.224-.96-.479-1.379-.899-.421-.419-.69-.824-.9-1.38-.165-.42-.359-1.065-.42-2.235-.045-1.26-.061-1.649-.061-4.844 0-3.196.016-3.586.061-4.861.061-1.17.255-1.814.42-2.234.21-.57.479-.96.9-1.381.419-.419.81-.689 1.379-.898.42-.166 1.051-.361 2.221-.421 1.275-.045 1.65-.06 4.859-.06l.045.03zm0 3.678c-3.405 0-6.162 2.76-6.162 6.162 0 3.405 2.76 6.162 6.162 6.162 3.405 0 6.162-2.76 6.162-6.162 0-3.405-2.76-6.162-6.162-6.162zM12 16c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4zm7.846-10.405c0 .795-.646 1.44-1.44 1.44-.795 0-1.44-.646-1.44-1.44 0-.794.646-1.439 1.44-1.439.793-.001 1.44.645 1.44 1.439z" />
                     </svg>
                 </a>
             </div>
         </div>
     </section>
-    <section class="bg-neutral-400 p-10">
-        <p class="text-center text-lg text-txt">Yang akan dilaksanakan pada :</p>
+    <section class="w-full p-10">
+        <p class="text-center text-base font-bold uppercase md:text-xl text-secondary">Yang akan dilaksanakan pada :</p>
         <div class="flex flex-col md:flex-row space-x-0 md:space-x-3">
-            <div class="mt-10 py-5 px-3 w-full md:w-1/2 flex flex-col items-center border-8 border-double border-txt rounded-xl relative">
+            <div
+                class="mt-10 py-5 px-3 w-full md:w-1/2 flex flex-col items-center border-8 border-double border-secondary rounded-xl relative opacity-white">
                 <span class="absolute -right-4 -top-4 -scale-x-100">
                     <svg role="img" width="40" height="40" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                         <title>Pinboard</title>
-                        <path fill="#9d174d"
+                        <path fill="#03045e"
                             d="M13.352 14.585l-4.509 4.614.72-4.062L3.428 7.57 0 7.753 7.58 0v2.953l7.214 6.646 4.513-1.105-4.689 4.982L24 24l-10.648-9.415z" />
                     </svg>
                 </span>
-                <h1 class="text-center text-xl font-bold text-txt uppercase">Akad Nikah</h1>
-                <p class="mt-4 text-center text-txt">Minggu, 35 February 2020</p>
-                <p class="mt-4 text-center text-txt">09.00 WIB</p>
-                <p class="mt-4 text-center font-bold text-txt">Graha Santika Tamansari Bantul</p>
-                <p class="mt-2 text-center font-bold text-txt">Jl. Pramuka No.7, Area Sawah, Trirenggo, Kec. Bantul, Kabupaten Bantul, Daerah Istimewa Yogyakarta 55714</p>
-                <a href="https://goo.gl/maps/29ze9jLgbFfSML5k7" target="_blank" class="mt-3 flex py-2 px-16 md:px-24 rounded-xl text-txt text-lg font-semibold bg-primary hover:bg-secondary transition duration-300 ease-in-out border border-txt">
+                <h1 class="text-center text-xl font-bold text-secondary uppercase">Akad Nikah</h1>
+                <p class="mt-4 text-center text-secondary">Jumat, 29 Desember 2023</p>
+                <p class="mt-4 text-center text-secondary">09.00 WIB</p>
+                <p class="mt-4 text-center font-bold text-secondary">Graha Santika Tamansari Bantul</p>
+                <p class="mt-2 text-center font-bold text-secondary">Jl. Pramuka No.7, Area Sawah, Trirenggo, Kec.
+                    Bantul, Kabupaten Bantul, Daerah Istimewa Yogyakarta 55714</p>
+                <a href="https://goo.gl/maps/29ze9jLgbFfSML5k7" target="_blank"
+                    class="mt-3 flex space-x-2 py-2 px-16 md:px-24 rounded-lg font-semibold border-2 bg-primary text-fourth border-third hover:bg-third hover:text-primary hover:border-primary transition duration-300 ease-in-out">
                     <svg role="img" width="26" height="26" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                         <title>Google Maps</title>
-                        <path fill="#4c0519"
+                        <path fill="#caf0f8"
                             d="M19.527 4.799c1.212 2.608.937 5.678-.405 8.173-1.101 2.047-2.744 3.74-4.098 5.614-.619.858-1.244 1.75-1.669 2.727-.141.325-.263.658-.383.992-.121.333-.224.673-.34 1.008-.109.314-.236.684-.627.687h-.007c-.466-.001-.579-.53-.695-.887-.284-.874-.581-1.713-1.019-2.525-.51-.944-1.145-1.817-1.79-2.671L19.527 4.799zM8.545 7.705l-3.959 4.707c.724 1.54 1.821 2.863 2.871 4.18.247.31.494.622.737.936l4.984-5.925-.029.01c-1.741.601-3.691-.291-4.392-1.987a3.377 3.377 0 0 1-.209-.716c-.063-.437-.077-.761-.004-1.198l.001-.007zM5.492 3.149l-.003.004c-1.947 2.466-2.281 5.88-1.117 8.77l4.785-5.689-.058-.05-3.607-3.035zM14.661.436l-3.838 4.563a.295.295 0 0 1 .027-.01c1.6-.551 3.403.15 4.22 1.626.176.319.323.683.377 1.045.068.446.085.773.012 1.22l-.003.016 3.836-4.561A8.382 8.382 0 0 0 14.67.439l-.009-.003zM9.466 5.868L14.162.285l-.047-.012A8.31 8.31 0 0 0 11.986 0a8.439 8.439 0 0 0-6.169 2.766l-.016.018 3.665 3.084z" />
-                    </svg>Lokasi
+                    </svg>
+                    <p class="text-lg">Lokasi</p>
                 </a>
             </div>
-            <div class="mt-10 py-5 px-3 w-full md:w-1/2 flex flex-col items-center border-8 border-double border-txt rounded-xl relative">
+            <div
+                class="mt-10 py-5 px-3 w-full md:w-1/2 flex flex-col items-center border-8 border-double border-secondary rounded-xl relative opacity-white">
                 <span class="absolute -right-4 -top-4 -scale-x-100">
                     <svg role="img" width="40" height="40" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                         <title>Pinboard</title>
-                        <path fill="#9d174d"
+                        <path fill="#03045e"
                             d="M13.352 14.585l-4.509 4.614.72-4.062L3.428 7.57 0 7.753 7.58 0v2.953l7.214 6.646 4.513-1.105-4.689 4.982L24 24l-10.648-9.415z" />
                     </svg>
                 </span>
-                <h1 class="text-center text-xl font-bold text-txt uppercase">Resepsi</h1>
-                <p class="mt-4 text-center text-txt">Minggu, 35 February 2020</p>
-                <p class="mt-4 text-center text-txt">13.00 - 15.00 WIB</p>
-                <p class="mt-4 text-center font-bold text-txt">Graha Santika Tamansari Bantul</p>
-                <p class="mt-2 text-center font-bold text-txt">Jl. Pramuka No.7, Area Sawah, Trirenggo, Kec. Bantul, Kabupaten Bantul, Daerah Istimewa Yogyakarta 55714</p>
-                <a href="https://goo.gl/maps/29ze9jLgbFfSML5k7" target="_blank" class="mt-3 flex py-2 px-16 md:px-24 rounded-xl text-txt text-lg font-semibold bg-primary hover:bg-secondary transition duration-300 ease-in-out border border-txt">
+                <h1 class="text-center text-xl font-bold text-secondary uppercase">Resepsi</h1>
+                <p class="mt-4 text-center text-secondary">Jumat, 29 Desember 2023</p>
+                <p class="mt-4 text-center text-secondary">13.00 - 15.00 WIB</p>
+                <p class="mt-4 text-center font-bold text-secondary">Graha Santika Tamansari Bantul</p>
+                <p class="mt-2 text-center font-bold text-secondary">Jl. Pramuka No.7, Area Sawah, Trirenggo, Kec.
+                    Bantul, Kabupaten Bantul, Daerah Istimewa Yogyakarta 55714</p>
+                <a href="https://goo.gl/maps/29ze9jLgbFfSML5k7" target="_blank"
+                    class="mt-3 flex space-x-2 py-2 px-16 md:px-24 rounded-lg font-semibold border-2 bg-primary text-fourth border-third hover:bg-third hover:text-primary hover:border-primary transition duration-300 ease-in-out">
                     <svg role="img" width="26" height="26" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                         <title>Google Maps</title>
-                        <path fill="#4c0519"
+                        <path fill="#caf0f8"
                             d="M19.527 4.799c1.212 2.608.937 5.678-.405 8.173-1.101 2.047-2.744 3.74-4.098 5.614-.619.858-1.244 1.75-1.669 2.727-.141.325-.263.658-.383.992-.121.333-.224.673-.34 1.008-.109.314-.236.684-.627.687h-.007c-.466-.001-.579-.53-.695-.887-.284-.874-.581-1.713-1.019-2.525-.51-.944-1.145-1.817-1.79-2.671L19.527 4.799zM8.545 7.705l-3.959 4.707c.724 1.54 1.821 2.863 2.871 4.18.247.31.494.622.737.936l4.984-5.925-.029.01c-1.741.601-3.691-.291-4.392-1.987a3.377 3.377 0 0 1-.209-.716c-.063-.437-.077-.761-.004-1.198l.001-.007zM5.492 3.149l-.003.004c-1.947 2.466-2.281 5.88-1.117 8.77l4.785-5.689-.058-.05-3.607-3.035zM14.661.436l-3.838 4.563a.295.295 0 0 1 .027-.01c1.6-.551 3.403.15 4.22 1.626.176.319.323.683.377 1.045.068.446.085.773.012 1.22l-.003.016 3.836-4.561A8.382 8.382 0 0 0 14.67.439l-.009-.003zM9.466 5.868L14.162.285l-.047-.012A8.31 8.31 0 0 0 11.986 0a8.439 8.439 0 0 0-6.169 2.766l-.016.018 3.665 3.084z" />
-                    </svg>Lokasi
+                    </svg>
+                    <p class="text-lg">Lokasi</p>
                 </a>
             </div>
         </div>
-        <div class="mt-10 py-5 w-full border-8 border-double border-txt flex flex-col items-center rounded-xl">
-            <h1 class="text-3xl font-semibold text-txt">Counting Down</h1>
+        <div
+            class="mt-10 py-5 w-full border-8 border-double border-secondary flex flex-col items-center rounded-xl opacity-white">
+            <h1 class="text-3xl font-semibold text-secondary">Counting Down</h1>
             <div class="mt-5 flex justify-evenly space-x-4">
                 <span class="flex flex-col items-center">
-                    <p id="days" class="text-2xl text-txt"></p>
-                    <p class="text-sm text-txt font-semibold">Days</p>
+                    <p id="days" class="text-2xl text-secondary"></p>
+                    <p class="text-sm text-secondary font-semibold">Days</p>
                 </span>
                 <span class="flex flex-col items-center">
-                    <p id="hours" class="text-2xl text-txt"></p>
-                    <p class="text-sm text-txt font-semibold">Hours</p>
+                    <p id="hours" class="text-2xl text-secondary"></p>
+                    <p class="text-sm text-secondary font-semibold">Hours</p>
                 </span>
                 <span class="flex flex-col items-center">
-                    <p id="minutes" class="text-2xl text-txt"></p>
-                    <p class="text-sm text-txt font-semibold">Minutes</p>
+                    <p id="minutes" class="text-2xl text-secondary"></p>
+                    <p class="text-sm text-secondary font-semibold">Minutes</p>
                 </span>
                 <span class="flex flex-col items-center">
-                    <p id="seconds" class="text-2xl text-txt"></p>
-                    <p class="text-sm text-txt font-semibold">Seconds</p>
+                    <p id="seconds" class="text-2xl text-secondary"></p>
+                    <p class="text-sm text-secondary font-semibold">Seconds</p>
                 </span>
             </div>
-            <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20231228T220000Z%2F20231228T233000Z&details=Pernikahan%20Perempuan%20%26%20Pria&location=https%3A%2F%2Fgoo.gl%2Fmaps%2F29ze9jLgbFfSML5k7&text=Pernikahan" target="_blank" title="Save Event in my Calendar" class="mt-5 py-2 px-5 md:px-14 bg-primary hover:bg-secondary transition duration-300 ease-in-out rounded-xl border border-txt flex items-center justify-center space-x-2">
+            <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20231228T220000Z%2F20231228T233000Z&details=Pernikahan%20Perempuan%20%26%20Pria&location=https%3A%2F%2Fgoo.gl%2Fmaps%2F29ze9jLgbFfSML5k7&text=Pernikahan"
+                target="_blank" title="Save Event in my Calendar"
+                class="mt-5 py-2 px-5 md:px-14 rounded-lg font-semibold border-2 flex items-center justify-center space-x-2 bg-primary text-fourth border-third hover:bg-third hover:text-primary hover:border-primary transition duration-300 ease-in-out">
                 <svg role="img" width="26" height="26" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                     <title>Google Calendar</title>
-                    <path fill="#4c0519"
+                    <path fill="#caf0f8"
                         d="M18.316 5.684H24v12.632h-5.684V5.684zM5.684 24h12.632v-5.684H5.684V24zM18.316 5.684V0H1.895A1.894 1.894 0 0 0 0 1.895v16.421h5.684V5.684h12.632zm-7.207 6.25v-.065c.272-.144.5-.349.687-.617s.279-.595.279-.982c0-.379-.099-.72-.3-1.025a2.05 2.05 0 0 0-.832-.714 2.703 2.703 0 0 0-1.197-.257c-.6 0-1.094.156-1.481.467-.386.311-.65.671-.793 1.078l1.085.452c.086-.249.224-.461.413-.633.189-.172.445-.257.767-.257.33 0 .602.088.816.264a.86.86 0 0 1 .322.703c0 .33-.12.589-.36.778-.24.19-.535.284-.886.284h-.567v1.085h.633c.407 0 .748.109 1.02.327.272.218.407.499.407.843 0 .336-.129.614-.387.832s-.565.327-.924.327c-.351 0-.651-.103-.897-.311-.248-.208-.422-.502-.521-.881l-1.096.452c.178.616.505 1.082.977 1.401.472.319.984.478 1.538.477a2.84 2.84 0 0 0 1.293-.291c.382-.193.684-.458.902-.794.218-.336.327-.72.327-1.149 0-.429-.115-.797-.344-1.105a2.067 2.067 0 0 0-.881-.689zm2.093-1.931l.602.913L15 10.045v5.744h1.187V8.446h-.827l-2.158 1.557zM22.105 0h-3.289v5.184H24V1.895A1.894 1.894 0 0 0 22.105 0zm-3.289 23.5l4.684-4.684h-4.684V23.5zM0 22.105C0 23.152.848 24 1.895 24h3.289v-5.184H0v3.289z" />
                 </svg>
-                <p class="text-lg text-txt">Add to Calendar</p>
+                <p class="text-lg">Add to Calendar</p>
             </a>
         </div>
     </section>
+    <!-- Gallery -->
+    <section class="w-full p-10">
+        <h1 class="text-center text-lg font-bold uppercase md:text-xl lg:text-3xl text-secondary">Gallery</h1>
+        <div id="prewed" class="flex flex-wrap justify-center mt-8 lg:mt-10">
+            <img src="./public/images/prewedding1.jpg" alt="Prewedding" class="object-cover w-full md:w-80 lg:w-2/5">
+            <img src="./public/images/prewedding2.jpg" alt="Prewedding" class="object-cover w-full md:w-80 lg:w-2/5">
+            <img src="./public/images/prewedding3.jpg" alt="Prewedding" class="object-cover w-full md:w-80 lg:w-2/5">
+            <img src="./public/images/prewedding4.jpg" alt="Prewedding" class="object-cover w-full md:w-80 lg:w-2/5">
+            <img src="./public/images/prewedding8.jpg" alt="Prewedding" class="object-cover w-full md:w-80 lg:w-72">
+            <img src="./public/images/prewedding5.jpg" alt="Prewedding" class="object-cover w-full md:w-80 lg:w-72">
+            <img src="./public/images/prewedding6.jpg" alt="Prewedding" class="object-cover w-full md:w-80 lg:w-72">
+            <img src="./public/images/prewedding9.jpg" alt="Prewedding" class="object-cover w-full md:w-80 lg:w-72">
+            <img src="./public/images/prewedding7.jpg" alt="Prewedding" class="object-cover w-full md:w-3/4">
+        </div>
+    </section>
+
     <script src="./public/js/script.js"></script>
 </body>
 

@@ -1,12 +1,18 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./public/**/*{html,js}"],
+  content: ["./*{html,js}"],
   theme: {
     extend: {
       colors: {
-        'primary': '#f472b6',
-        'secondary': '#f9a8d4',
-        'txt': '#4c0519',
+        'primary': '#03045e',
+        'secondary': '#0077b6',
+        'third': '#00b4d8',
+        'fourth': '#90e0ef',
+        'fifth': '#caf0f8',
+      },
+      fontFamily: {
+        'outfit': ['Outfit', 'sans-serif'],
+        'name': ['Permanent Marker', 'cursive'],
       }
     },
   },

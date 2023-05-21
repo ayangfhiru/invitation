@@ -3,5 +3,33 @@
 @tailwind utilities;
 
 .opacity-white {
-    background-color: rgba(255, 255, 255, .5);
+    background-color: rgba(255, 255, 255, .3);
 }
+
+body {
+    @apply font-outfit;
+    background: linear-gradient(#ff8fab, #ffc2d1)
+}
+
+#prewed img {
+    @apply mt-2 mr-2 rounded-lg cursor-pointer;
+    box-shadow: 2px 3px 6px 0 rgba(0, 0, 0, .9);
+}
+
+#prewed img:hover {
+    /* box-shadow: 4px 4px 8px 0 rgba(3, 4, 94, .9); */
+}
+
+/* Shake */
+.shake{
+    animation: shake 0.25s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+    0% {transform: rotate(0deg);}
+    25% {transform: rotate(1deg);}
+    50% {transform: rotate(0deg);}
+    75% {transform: rotate(-1deg);}
+    100% {transform: rotate(0deg);}
+};
