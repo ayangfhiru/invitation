@@ -42,13 +42,32 @@ if (queryString != "") {
     document.querySelector("#invitation").innerHTML = "Teman-teman Semua";
 }
 
-// ScrollShake
-window.onscroll = function () {
-    const img = document.querySelectorAll("#prewed > img");
-    for (let i = 0; i < img.length; i++) {
-        img[i].classList.add("shake");
-        setTimeout(() => {
-            img[i].classList.remove("shake");
-        }, 5000);
+
+lozad('.sect', {
+    load: function (el) {
+        for (let i = 0; i < el.children.length; i++) {
+            el.children[i].classList.remove('hidden');
+            el.children[i].classList.add('fade');
+        }
     }
-};
+}).observe();
+
+
+// Lozad
+const imgGallery = document.querySelector("#prewed img");
+lozad('.lozad', {
+    load:function (el) {
+        el.src = el.dataset.src;
+        // console.log(el.dataset.src);
+        el.onload = function () {
+            el.classList.add('fade');
+        }
+
+        el.addEventListener('mouseenter', function (e) {
+            e.target.parentElement.classList.add("shake");
+        });
+        el.addEventListener('mouseleave', function (e) {
+            e.target.parentElement.classList.remove("shake");
+        });
+    }
+}).observe();

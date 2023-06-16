@@ -92,5 +92,13 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ayangfhiru/invitation.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ayangfhiru/invitation/issues"
+  },
+  "homepage": "https://github.com/ayangfhiru/invitation#readme",
   "description": ""
 }

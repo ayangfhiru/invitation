@@ -7,22 +7,40 @@
 }
 
 body {
-    @apply font-outfit bg-gradient-to-b from-[#ff8fab] to-[#ffc2d1];
+    @apply font-outfit bg-[#ccd2d4];
 }
 
-#prewed img {
+#prewed label {
     @apply mt-2 mr-2 rounded-lg cursor-pointer;
-    box-shadow: 2px 3px 6px 0 rgba(0, 0, 0, .9);
+/*    box-shadow: 2px 3px 6px 0 rgba(0, 0, 0, .9);*/
+    overflow: hidden;
 }
 
-#prewed img:hover {
+#prewed label:hover {
     box-shadow: 4px 4px 8px 0 rgba(3, 4, 94, .9);
 }
 
-/* Shake */
-.shake{
+#prewed label img {
+    line-height: 0;
+}
+
+section {
+    min-height: 0px;
+}
+
+.thumb {
+    min-height: 343px;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.shake {
     animation: shake 0.25s;
     animation-iteration-count: infinite;
+}
+
+.fade {
+    animation: fade 3s;
 }
 
 @keyframes shake {
@@ -32,3 +50,12 @@ body {
     75% {transform: rotate(-1deg);}
     100% {transform: rotate(0deg);}
 };
+
+@keyframes fade {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
